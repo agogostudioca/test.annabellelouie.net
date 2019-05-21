@@ -580,10 +580,10 @@ label.label {
 }
 
 .container.next-article.surrounding-padding-col {
-  background-image: -webkit-linear-gradient(top, rgba(29, 29, 29, .69) 0%, rgba(0, 0, 0, .43) 100%), url('../carbon-fiber.jpg');
-  background-image:    -moz-linear-gradient(top, rgba(29, 29, 29, .69) 0%, rgba(0, 0, 0, .43) 100%), url('../carbon-fiber.jpg');
-  background-image:      -o-linear-gradient(top, rgba(29, 29, 29, .69) 0%, rgba(0, 0, 0, .43) 100%), url('../carbon-fiber.jpg');
-  background-image:         linear-gradient(180deg, rgba(29, 29, 29, .69) 0%, rgba(0, 0, 0, .43) 100%), url('../carbon-fiber.jpg');
+  background-image: -webkit-linear-gradient(top, rgba(29, 29, 29, .69) 0%, rgba(0, 0, 0, .43) 100%), url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+  background-image:    -moz-linear-gradient(top, rgba(29, 29, 29, .69) 0%, rgba(0, 0, 0, .43) 100%), url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+  background-image:      -o-linear-gradient(top, rgba(29, 29, 29, .69) 0%, rgba(0, 0, 0, .43) 100%), url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+  background-image:         linear-gradient(180deg, rgba(29, 29, 29, .69) 0%, rgba(0, 0, 0, .43) 100%), url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
   background-attachment: scroll, scroll;
   background-position: left top, center center;
   background-clip: border-box, border-box;
@@ -767,7 +767,7 @@ label.label {
 
 .container.contact-large-quote.surrounding-padding-col {
   background-color: #3e3e3e;
-  background-image: url('../josh-nuttall-286507.jpg');
+  background-image: url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
   background-attachment: fixed;
   background-position: right center;
   background-clip: border-box;
@@ -1476,7 +1476,7 @@ div.responsive-picture.picture-1:hover {
             flex-direction: column;
     -ms-flex-pack: justify;
     padding: 10px 0 20px 10px;
-    width: 30%;
+    width: 100%;
 
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1507,11 +1507,26 @@ div.responsive-picture.picture-1:hover {
     padding-bottom: 10px;
   }
 
+  .container.sample-60-buttons-cont.twelve-hundred-centered-cont {
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    max-width: none;
+
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+  }
+
   a.responsive-picture.nav-item.picture-link-1 {
     position: static;
     display: block;
     overflow: visible;
-    padding: 1vh 40vh;
+    padding: 1vh 20vh;
     min-width: 20vh;
     min-height: 0vh;
     max-width: none;
@@ -1524,7 +1539,7 @@ div.responsive-picture.picture-1:hover {
   a.responsive-picture.nav-item.picture-link-2 {
     position: static;
     overflow: visible;
-    padding: 1vh 40vh;
+    padding: 1vh 20vh;
     min-width: 10px;
     max-width: none;
     width: auto;
@@ -1537,7 +1552,7 @@ div.responsive-picture.picture-1:hover {
 
   a.responsive-picture.nav-item.picture-link-3 {
     overflow: visible;
-    padding: 1vh 40vh;
+    padding: 1vh 20vh;
     min-width: 0vh;
     min-height: 0vh;
     max-width: none;
@@ -1825,10 +1840,10 @@ div.responsive-picture.picture-1:hover {
 
   .container.component-heading-right-cont {
     width: 60%;
-    background-image: -webkit-linear-gradient(left, rgba(7, 7, 7, 1) 0%, rgba(7, 7, 7, 0) 75%), url('../josh-nuttall-271928.jpg');
-    background-image:    -moz-linear-gradient(left, rgba(7, 7, 7, 1) 0%, rgba(7, 7, 7, 0) 75%), url('../josh-nuttall-271928.jpg');
-    background-image:      -o-linear-gradient(left, rgba(7, 7, 7, 1) 0%, rgba(7, 7, 7, 0) 75%), url('../josh-nuttall-271928.jpg');
-    background-image:         linear-gradient(90deg, rgba(7, 7, 7, 1) 0%, rgba(7, 7, 7, 0) 75%), url('../josh-nuttall-271928.jpg');
+    background-image: -webkit-linear-gradient(left, rgba(7, 7, 7, 1) 0%, rgba(7, 7, 7, 0) 75%), url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+    background-image:    -moz-linear-gradient(left, rgba(7, 7, 7, 1) 0%, rgba(7, 7, 7, 0) 75%), url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+    background-image:      -o-linear-gradient(left, rgba(7, 7, 7, 1) 0%, rgba(7, 7, 7, 0) 75%), url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
+    background-image:         linear-gradient(90deg, rgba(7, 7, 7, 1) 0%, rgba(7, 7, 7, 0) 75%), url('https://red-resources.coffeecup.com/storage/common/url-placeholder.png');
   }
 
   .container.component-heading.full-width-col {
@@ -2066,8 +2081,10 @@ div.responsive-picture.picture-1:hover {
         -ms-flex-direction: column;
             flex-direction: column;
     -ms-flex-pack: justify;
-    padding: 20px 0 10px 10px;
-    width: 23.5%;
+    padding: 20px 20px 10px 10px;
+    min-width: 100px;
+    min-height: 10px;
+    width: 45%;
 
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -2077,6 +2094,23 @@ div.responsive-picture.picture-1:hover {
     -webkit-justify-content: space-between;
        -moz-box-pack: justify;
             justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+  }
+
+  .container.sample-60-buttons-cont.twelve-hundred-centered-cont {
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
   }
 
   .link-container.sample-60-advanced-bt {
@@ -2310,7 +2344,25 @@ div.responsive-picture.picture-1:hover {
   }
 
   .container.sample-60-buttons-cont.twelve-hundred-centered-cont {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display:    -moz-box;
+    display: -ms-flexbox;
+    display:         flex;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 20px 20px 10px 10px;
+    min-height: 0;
     max-width: none;
+
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
   }
 
   .container.sample-60-advanced-bt {
@@ -2326,6 +2378,8 @@ div.responsive-picture.picture-1:hover {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px 20px 10px 10px;
+    min-width: 100px;
+    min-height: 100px;
     width: 23.5%;
     background-color: transparent;
 
@@ -2337,6 +2391,9 @@ div.responsive-picture.picture-1:hover {
     -webkit-justify-content: space-between;
        -moz-box-pack: justify;
             justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
   }
 
   .container.container-4 {
@@ -3077,6 +3134,31 @@ div.responsive-picture.picture-1:hover {
     background-color: #f6e5b3;
   }
 
+  .container.sample-60-buttons-cont.twelve-hundred-centered-cont {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display:    -moz-box;
+    display: -ms-flexbox;
+    display:         flex;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 20px 20px 10px;
+    max-width: none;
+    width: auto;
+
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+            align-content: flex-start;
+  }
+
   .container.sample-60-advanced-bt:hover {
     -webkit-transition-timing-function: ease;
        -moz-transition-timing-function: ease;
@@ -3190,8 +3272,10 @@ div.responsive-picture.picture-1:hover {
   }
 
   div.responsive-video.video-platform-4 {
-    display: inline;
+    display: inline-block;
     padding-bottom: 100%;
+    min-width: 0;
+    min-height: 0;
     width: 100%;
   }
 
