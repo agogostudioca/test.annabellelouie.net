@@ -1396,6 +1396,14 @@ div.responsive-picture.picture-1:hover {
     color: #e3d097;
   }
 
+  p.paragraph.paragraph-1 {
+    text-align: center;
+  }
+
+  p.paragraph.paragraph-2 {
+    color: #a6986e;
+  }
+
   a.link-text.nav-item {
     color: #f6e5b3;
     font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
@@ -1673,6 +1681,17 @@ div.responsive-picture.picture-1:hover {
 
   p.paragraph span.paragraph-text-3 {
     color: #e3d097;
+    font-size: 1.25rem;
+    font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+  }
+
+  p.paragraph span.paragraph-text-5 {
+    font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+  }
+
+  p.paragraph span.paragraph-text-4 {
+    color: #e3d097;
+    font-variant: normal;
     font-size: 1.25rem;
     font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
   }
@@ -2662,9 +2681,17 @@ div.responsive-picture.picture-1:hover {
   }
 
   p.paragraph.paragraph-1 {
-    display: inline-block;
+    display: block;
     margin-bottom: 0;
     padding: 10px 10vh;
+  }
+
+  p.paragraph span.paragraph-text-4 {
+    color: #a6986e;
+  }
+
+  p.paragraph.paragraph-2 {
+    text-align: center;
   }
 
   span.text-element.user-score {
