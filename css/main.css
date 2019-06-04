@@ -1567,6 +1567,10 @@ div.responsive-picture.picture-1:hover {
     width: auto;
   }
 
+  div.responsive-picture.picture-3 {
+    display: inline;
+  }
+
   a.responsive-picture.picture-link-4 {
     display: block;
     padding-right: 0;
@@ -2458,6 +2462,12 @@ div.responsive-picture.picture-1:hover {
             flex: 1;
   }
 
+  div.responsive-picture.picture-3 {
+    padding: 10px 10vh;
+    max-width: none;
+    width: auto;
+  }
+
   a.responsive-picture.picture-link-4 {
     padding-bottom: 10px;
   }
@@ -2682,47 +2692,6 @@ div.responsive-picture.picture-1:hover {
 
   p.paragraph.paragraph-2 {
     text-align: center;
-  }
-
-  p.paragraph span.paragraph-text-6 {
-    font-size: 2.375rem;
-  }
-
-  p.paragraph span.paragraph-text-7 {
-    color: #a6986e;
-    font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
-  }
-
-  p.paragraph span.paragraph-text-8 {
-    font-size: 2.375rem;
-  }
-
-  p.paragraph span.paragraph-text-9 {
-    font-size: 1.3125rem;
-  }
-
-  p.paragraph span.paragraph-text-10 {
-    font-size: 2.375rem;
-  }
-
-  p.paragraph span.paragraph-text-11 {
-    font-size: 1.3125rem;
-  }
-
-  p.paragraph span.paragraph-text-12 {
-    font-size: 1.25rem;
-  }
-
-  p.paragraph span.paragraph-text-13 {
-    font-size: 1.25rem;
-  }
-
-  p.paragraph.paragraph-3 {
-    text-align: center;
-  }
-
-  p.paragraph span.paragraph-text-14 {
-    font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
   }
 
   span.text-element.user-score {
@@ -3320,6 +3289,13 @@ div.responsive-picture.picture-1:hover {
     min-width: 0vh;
     min-height: 0vh;
     max-width: 65px;
+  }
+
+  div.responsive-picture.picture-3 {
+    padding: 10px 10vh 0;
+    min-height: 0;
+    max-width: none;
+    width: auto;
   }
 
   div.responsive-video.video-platform-4 {
