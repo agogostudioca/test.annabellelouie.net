@@ -1031,7 +1031,7 @@ label.label {
   min-width: 10px;
   min-height: 70vh;
   max-width: none;
-  background-image: url('../image/Annabelle%20poster%202019.jpg');
+  background-image: url('../21.Auto%20Nerve%20%C2%BD%20ad_for%20July-revised%20copy.jpg');
   background-attachment: scroll;
   background-position: center center;
   background-clip: border-box;
@@ -1356,7 +1356,7 @@ div.responsive-picture.picture-1:hover {
           transition-duration: .3s;
 }
 
-@media screen and (min-width: 20.0625rem) {
+@media screen and (min-width: 20rem) {
   /* Text Elements */
 
   h1.heading-1 {
@@ -1482,7 +1482,7 @@ div.responsive-picture.picture-1:hover {
 
   .container.full-width-col.sample-4 {
     min-height: 100vh;
-    background-image: url('../image/Annabelle%20in%20Concert%202019_MP%20full%20page%20magazine.jpg');
+    background-image: url('../21.Auto%20Nerve%20%C2%BD%20ad_for%20July-revised%20copy.jpg');
     background-size: contain;
   }
 
@@ -3106,7 +3106,7 @@ div.responsive-picture.picture-1:hover {
     min-height: 800px;
     max-height: none;
     background-color: #fff;
-    background-image: url('../image/Annabelle%20in%20Concert%202019_MP%20full%20page%20magazine.jpg');
+    background-image: url('../21.Auto%20Nerve%20%C2%BD%20ad_for%20July-revised%20copy.jpg');
     background-attachment: scroll;
     background-position: center bottom;
     background-clip: border-box;
@@ -3159,7 +3159,7 @@ div.responsive-picture.picture-1:hover {
     padding: 20px 20px 10px;
     min-height: 0;
     width: 23.5%;
-    background-color: transparent;
+    background-color: #fff;
     -webkit-transition-delay: 0s;
        -moz-transition-delay: 0s;
          -o-transition-delay: 0s;
