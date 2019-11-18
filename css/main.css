@@ -1509,7 +1509,14 @@ div.responsive-picture.picture-1:hover {
     min-width: 0;
     min-height: 100vh;
     background-image: url('../Annabelle%20in%20concert%2018x24%20poster_Sep%205%20copy.jpg');
+    background-attachment: scroll;
+    background-position: center center;
+    background-clip: border-box;
+    background-origin: padding-box;
     background-size: contain;
+    background-repeat: no-repeat;
+
+    background-blend-mode: normal;
   }
 
   a.responsive-picture.nav-item.picture-link-1 {
@@ -2206,6 +2213,10 @@ div.responsive-picture.picture-1:hover {
   }
 
   a.link-text.text-link-1 {
+    color: #a6986e;
+  }
+
+  a.link-text span.text-link-text-33 {
     color: #a6986e;
   }
 
