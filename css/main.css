@@ -1,7 +1,11 @@
 /* Text Elements */
 
-h1.heading-1 {
-  text-align: center;
+h1 span.heading-text-7 {
+  font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+}
+
+h1 font.heading-text-16 {
+  font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
 }
 
 h2 {
@@ -1351,14 +1355,9 @@ div.responsive-picture.picture-1:hover {
 @media screen and (min-width: 20rem) {
   /* Text Elements */
 
-  h1.heading-1 {
-    text-align: center;
-    font-size: 50px;
-    font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
-  }
-
   h1 span.heading-text-7 {
-    font-size: 3.125rem;
+    font-size: 1.5rem;
+    font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
   }
 
   h2 span.heading-text-1 {
@@ -1532,10 +1531,6 @@ div.responsive-picture.picture-1:hover {
 
 @media screen and (min-width: 40rem) {
   /* Text Elements */
-
-  h1.heading-1 {
-    text-align: center;
-  }
 
   h1 font.heading-text-16 {
     font-weight: 500;
@@ -2071,10 +2066,6 @@ div.responsive-picture.picture-1:hover {
 @media screen and (min-width: 52.4375rem) {
   /* Text Elements */
 
-  h1.heading-1 {
-    text-align: center;
-  }
-
   h1 font.heading-text-16 {
     font-size: 3.125rem;
     font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
@@ -2140,10 +2131,6 @@ div.responsive-picture.picture-1:hover {
     -webkit-column-rule-color: transparent;
        -moz-column-rule-color: transparent;
             column-rule-color: transparent;
-  }
-
-  .container.container-2 {
-    max-width: none;
   }
 
   .container#container-2 {
@@ -2264,10 +2251,6 @@ div.responsive-picture.picture-1:hover {
 @media screen and (min-width: 64rem) {
   /* Text Elements */
 
-  h1.heading-1 {
-    text-align: center;
-  }
-
   h1 font.heading-text-16 {
     font-weight: 600;
     font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
@@ -2291,6 +2274,11 @@ div.responsive-picture.picture-1:hover {
 
   h1 span.heading-text-23 {
     font-weight: 400;
+  }
+
+  h1 span.heading-text-7 {
+    font-size: 3rem;
+    font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
   }
 
   h2 {
@@ -2746,13 +2734,6 @@ div.responsive-picture.picture-1:hover {
     background-color: #fff;
   }
 
-  .container.container-2 {
-    margin-bottom: 0;
-    padding-bottom: 10px;
-    min-width: 0;
-    min-height: 0;
-  }
-
   .container.sample-60-advanced-bt {
     display: -webkit-box;
     display: -webkit-flex;
@@ -2795,18 +2776,6 @@ div.responsive-picture.picture-1:hover {
     -webkit-justify-content: space-between;
        -moz-box-pack: justify;
             justify-content: space-between;
-  }
-
-  .container.container-6 {
-    display: block;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-       -moz-box-orient: vertical;
-       -moz-box-direction: normal;
   }
 
   .container.sample-60-buttons-cont.twelve-hundred-centered-cont {
