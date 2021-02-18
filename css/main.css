@@ -8,6 +8,23 @@ h1 font.heading-text-16 {
   font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
 }
 
+h1.heading-1 {
+  color: #e3d097;
+}
+
+h1 span.heading-text-12 {
+  font-size: 1.25rem;
+}
+
+h1 span.heading-text-13 {
+  font-size: 1.25rem;
+}
+
+h1 span.heading-text-15 {
+  color: #a6986e;
+  font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+}
+
 h2 {
   margin-bottom: 1.5rem;
   margin-left: 0;
@@ -166,6 +183,26 @@ p.paragraph.technical-info-data-info {
   margin-bottom: 0;
 }
 
+p.paragraph span.paragraph-text-7 {
+  color: #a6986e;
+}
+
+p.paragraph span.paragraph-text-6 {
+  color: #a6986e;
+}
+
+p.paragraph.paragraph-1 {
+  color: #e3d097;
+}
+
+p.paragraph.paragraph-2 {
+  color: #e3d097;
+}
+
+p.paragraph.paragraph-3 {
+  color: #e3d097;
+}
+
 span.text-element {
   color: #3c3c3c;
   font-family: 'Roboto', Arial, 'Helvetica Neue', Helvetica, sans-serif;
@@ -302,8 +339,24 @@ a.link-text.nav-item {
           transition-property: all;
 }
 
-a.link-text span.text-link-text-2 {
-  color: transparent;
+a.link-text span.text-link-text-1 {
+  color: #50b1a9;
+}
+
+a.link-text.text-link-3 {
+  color: #e3d097;
+}
+
+a.link-text.text-link-2 {
+  color: #e3d097;
+}
+
+a.link-text.text-link-1 {
+  color: #e3d097;
+}
+
+a.link-text.text-link-4 {
+  color: #e3d097;
 }
 
 a.link-text.footer-contact-info:hover {
@@ -381,6 +434,10 @@ label.label {
 }
 
 /* Layout Elements */
+
+body.body-2 {
+  background-color: #362a2b;
+}
 
 .container.full-width-col {
   padding-right: 0;
@@ -543,7 +600,7 @@ label.label {
 .container.surrounding-padding-col-1 {
   -ms-flex-pack: center;
   padding: 10vw 40px;
-  background-color: #000;
+  background-color: #362a2b;
 
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
@@ -961,7 +1018,7 @@ label.label {
   -ms-flex-align: center;
   padding-top: 40px;
   padding-bottom: 20px;
-  background-color: #070707;
+  background-color: #362a2b;
   box-shadow: none;
 
   -webkit-box-orient: vertical;
@@ -1020,25 +1077,6 @@ label.label {
   -webkit-justify-content: center;
      -moz-box-pack: center;
           justify-content: center;
-}
-
-.container.full-width-col.sample-4 {
-  display: block;
-  min-width: 10px;
-  min-height: 40vh;
-  max-width: none;
-  background-image: url('../Annabelle%20in%20concert%2018x24%20poster_Sep%205%20copy.jpg');
-  background-attachment: scroll;
-  background-position: center center;
-  background-clip: border-box;
-  background-origin: padding-box;
-  background-size: contain;
-  background-repeat: no-repeat;
-
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-  background-blend-mode: normal;
 }
 
 .container.img-holder {
@@ -1156,6 +1194,10 @@ label.label {
 .container.heading-section {
   margin: 10vw 40px;
   max-width: none;
+}
+
+.container.container-1 {
+  background-color: #362a2b;
 }
 
 .link-container.sample-60-advanced-bt {
@@ -1337,6 +1379,10 @@ div.responsive-picture.picture-1 {
           transition-property: opacity;
 }
 
+div.responsive-video.video-platform-4 {
+  background-color: #e3d097;
+}
+
 button.button:hover {
   padding-bottom: .7em;
   border-color: rgba(60, 60, 60, .25);
@@ -1360,6 +1406,15 @@ div.responsive-picture.picture-1:hover {
     font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
   }
 
+  h1 span.heading-text-12 {
+    color: #e3d097;
+  }
+
+  h1 span.heading-text-15 {
+    color: #a6986e;
+    font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+  }
+
   h2 span.heading-text-1 {
     font-size: 4.375rem;
     line-height: .38;
@@ -1380,12 +1435,88 @@ div.responsive-picture.picture-1:hover {
     font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
   }
 
+  p.paragraph.paragraph-1 {
+    color: #e3d097;
+  }
+
+  p.paragraph.paragraph-2 {
+    color: #e3d097;
+  }
+
+  p.paragraph.paragraph-3 {
+    color: #e3d097;
+  }
+
+  p.paragraph span.paragraph-text-6 {
+    color: #a6986e;
+  }
+
+  p.paragraph span.paragraph-text-8 {
+    color: #e3d097;
+  }
+
   a.link-text.nav-item {
     color: #f6e5b3;
     font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
   }
 
+  a.link-text span.text-link-text-3 {
+    color: #a6986e;
+  }
+
+  a.link-text span.text-link-text-4 {
+    color: #e3d097;
+  }
+
+  a.link-text span.text-link-text-1 {
+    color: #f6e5b3;
+  }
+
+  a.link-text.text-link-2 {
+    color: #e3d097;
+  }
+
+  a.link-text.text-link-3 {
+    color: #e3d097;
+  }
+
+  a.link-text.text-link-4 {
+    color: #e3d097;
+  }
+
+  a.link-text.text-link-1 {
+    color: #e3d097;
+  }
+
+  a.link-text span.text-link-text-7 {
+    color: #e3d097;
+  }
+
+  a.link-text span.text-link-text-5 {
+    font-size: 1.125rem;
+  }
+
+  a.link-text span.text-link-text-2 {
+    font-size: 1.125rem;
+  }
+
+  a.link-text span.text-link-text-9 {
+    font-size: 1.125rem;
+  }
+
+  a.link-text span.text-link-text-10 {
+    font-size: 1.125rem;
+  }
+
+  a.link-text span.text-link-text-6 {
+    font-size: 1.125rem;
+  }
+
   /* Layout Elements */
+
+  body.body-2 {
+    background-color: #362a2b;
+  }
 
   .container.heading-right-cont {
     display: block;
@@ -1417,13 +1548,6 @@ div.responsive-picture.picture-1:hover {
 
   .container.surrounding-padding-col.turquoise-breaker {
     background-color: #362a2b;
-  }
-
-  .container.full-width-col.sample-4 {
-    min-width: 0;
-    min-height: 100vh;
-    background-image: url('../Annabelle%20in%20concert%2018x24%20poster_Sep%205%20copy.jpg');
-    background-size: contain;
   }
 
   .container.menu-wrapper {
@@ -1461,21 +1585,6 @@ div.responsive-picture.picture-1:hover {
     background-color: #fff;
   }
 
-  .container.container-4 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
-  .container.container-7 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
-  .container.container-9 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-
   .container.sample-60-buttons-cont.twelve-hundred-centered-cont {
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
@@ -1491,12 +1600,16 @@ div.responsive-picture.picture-1:hover {
             flex-wrap: nowrap;
   }
 
+  .container.container-1 {
+    background-color: #362a2b;
+  }
+
   a.responsive-picture.nav-item.picture-link-1 {
     position: static;
     display: block;
     overflow: visible;
     padding: 1vh 20vh;
-    min-width: 20vh;
+    min-width: 0vh;
     min-height: 0vh;
     max-width: none;
     width: auto;
@@ -1527,6 +1640,26 @@ div.responsive-picture.picture-1:hover {
     max-width: none;
     width: auto;
   }
+
+  a.responsive-picture.picture-link-14 {
+    max-width: none;
+  }
+
+  a.responsive-picture.picture-link-15 {
+    max-width: none;
+  }
+
+  div.responsive-picture.picture-2 {
+    max-width: none;
+  }
+
+  div.responsive-picture.picture-3 {
+    max-width: none;
+  }
+
+  div.responsive-picture.picture-4 {
+    max-width: none;
+  }
 }
 
 @media screen and (min-width: 40rem) {
@@ -1534,7 +1667,25 @@ div.responsive-picture.picture-1:hover {
 
   h1 font.heading-text-16 {
     font-weight: 500;
+    font-size: 1.875rem;
     font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
+  }
+
+  h1 span.heading-text-15 {
+    color: #a6986e;
+    font-size: 1.875rem;
+  }
+
+  h1 span.heading-text-17 {
+    font-size: 1.875rem;
+  }
+
+  h1 span.heading-text-7 {
+    font-size: 1.875rem;
+  }
+
+  h1.heading-2 {
+    text-align: left;
   }
 
   h2 {
@@ -1588,6 +1739,22 @@ div.responsive-picture.picture-1:hover {
     font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
   }
 
+  p.paragraph span.paragraph-text-4 {
+    color: #e3d097;
+  }
+
+  p.paragraph span.paragraph-text-3 {
+    color: #e3d097;
+  }
+
+  p.paragraph span.paragraph-text-5 {
+    color: #e3d097;
+  }
+
+  p.paragraph span.paragraph-text-6 {
+    color: #a6986e;
+  }
+
   span.text-element.user-score {
     margin-right: 10px;
     font-size: 26px;
@@ -1639,6 +1806,38 @@ div.responsive-picture.picture-1:hover {
        -moz-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
+  }
+
+  a.link-text span.text-link-text-1 {
+    color: #f6e5b3;
+  }
+
+  a.link-text span.text-link-text-2 {
+    color: #e3d097;
+  }
+
+  a.link-text span.text-link-text-5 {
+    color: #e3d097;
+  }
+
+  a.link-text.text-link-1 {
+    color: #e3d097;
+  }
+
+  a.link-text.text-link-2 {
+    color: #e3d097;
+  }
+
+  a.link-text span.text-link-text-6 {
+    color: #e3d097;
+  }
+
+  a.link-text.text-link-3 {
+    color: #e3d097;
+  }
+
+  a.link-text span.text-link-text-7 {
+    color: #e3d097;
   }
 
   a.link-text.nav-item:hover {
@@ -1929,19 +2128,6 @@ div.responsive-picture.picture-1:hover {
             justify-content: flex-end;
   }
 
-  .container.full-width-col.sample-4 {
-    min-height: 150vh;
-    background-image: url('../Annabelle%20in%20concert%2018x24%20poster_Sep%205%20copy.jpg');
-    background-attachment: scroll;
-    background-position: center center;
-    background-clip: border-box;
-    background-origin: padding-box;
-    background-size: contain;
-    background-repeat: no-repeat;
-
-    background-blend-mode: normal;
-  }
-
   .container#container-2 {
     background-color: #fff;
   }
@@ -2061,19 +2247,166 @@ div.responsive-picture.picture-1:hover {
         -ms-flex: 1;
             flex: 1;
   }
+
+  a.responsive-picture.picture-link-4 {
+    max-width: none;
+  }
+
+  a.responsive-picture.picture-link-5 {
+    max-width: none;
+  }
+
+  a.responsive-picture.picture-link-6 {
+    max-width: none;
+  }
+
+  a.responsive-picture.picture-link-7 {
+    max-width: none;
+  }
+
+  a.responsive-picture.picture-link-8 {
+    max-width: none;
+  }
+
+  a.responsive-picture.picture-link-9 {
+    max-width: none;
+  }
+
+  a.responsive-picture.picture-link-10 {
+    max-width: none;
+  }
+
+  a.responsive-picture.picture-link-11 {
+    max-width: none;
+  }
+
+  a.responsive-picture.picture-link-12 {
+    max-width: none;
+  }
+
+  a.responsive-picture.picture-link-13 {
+    max-width: none;
+  }
 }
 
 @media screen and (min-width: 52.4375rem) {
   /* Text Elements */
 
   h1 font.heading-text-16 {
-    font-size: 3.125rem;
+    font-size: 3rem;
     font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
   }
 
+  h1 span.heading-text-12 {
+    color: #e3d097;
+    font-size: 1.5rem;
+  }
+
+  h1 span.heading-text-7 {
+    font-size: 3rem;
+  }
+
+  h1 span.heading-text-15 {
+    font-size: 3rem;
+  }
+
+  h1 span.heading-text-17 {
+    font-size: 3rem;
+  }
+
+  h1 span.heading-text-20 {
+    font-size: 2.75rem;
+  }
+
+  h1.heading-2 {
+    text-align: center;
+  }
+
+  h1.heading-1 {
+    text-align: center;
+  }
+
+  h2 span.heading-text-14 {
+    color: #e3d097;
+  }
+
+  p.paragraph span.paragraph-text-9 {
+    color: #e3d097;
+    font-size: 1.5rem;
+  }
+
   a.link-text.nav-item {
-    color: #f6e5b3;
+    color: #e3d097;
     font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
+  }
+
+  a.link-text span.text-link-text-7 {
+    color: #e3d097;
+  }
+
+  a.link-text span.text-link-text-2 {
+    font-size: 1.5rem;
+  }
+
+  a.link-text span.text-link-text-5 {
+    font-size: 1.5rem;
+  }
+
+  a.link-text span.text-link-text-8 {
+    font-size: 1.0625rem;
+  }
+
+  a.link-text span.text-link-text-9 {
+    font-size: 1.5rem;
+  }
+
+  a.link-text span.text-link-text-10 {
+    font-size: 1.5rem;
+  }
+
+  a.link-text span.text-link-text-6 {
+    font-size: 1.5rem;
+  }
+
+  a.link-text span.text-link-text-11 {
+    font-size: 1.5rem;
+  }
+
+  a.link-text.text-link-1 {
+    text-align: left;
+  }
+
+  a.link-text span.text-link-text-12 {
+    font-size: 1.5rem;
+  }
+
+  a.link-text span.text-link-text-13 {
+    font-size: 1.5rem;
+  }
+
+  a.link-text.text-link-2 {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  a.link-text span.text-link-text-14 {
+    font-size: 1.5rem;
+  }
+
+  a.link-text span.text-link-text-22 {
+    font-size: 1.5rem;
+  }
+
+  a.link-text span.text-link-text-23 {
+    font-size: 1.5rem;
+  }
+
+  a.link-text span.text-link-text-24 {
+    font-size: 1.5rem;
+  }
+
+  a.link-text span.text-link-text-25 {
+    font-size: 1.5rem;
   }
 
   a.link-text.nav-item:hover {
@@ -2092,6 +2425,10 @@ div.responsive-picture.picture-1:hover {
 
   /* Layout Elements */
 
+  body.body-2 {
+    background-color: #362a2b;
+  }
+
   .container.heading-right-cont {
     position: static;
     display: -webkit-box;
@@ -2109,20 +2446,6 @@ div.responsive-picture.picture-1:hover {
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
             align-self: auto;
-  }
-
-  .container.full-width-col.sample-4 {
-    min-height: 200vh;
-    width: auto;
-    background-image: url('../Annabelle%20in%20concert%2018x24%20poster_Sep%205%20copy.jpg');
-    background-attachment: scroll;
-    background-position: center center;
-    background-clip: border-box;
-    background-origin: padding-box;
-    background-size: contain;
-    background-repeat: no-repeat;
-
-    background-blend-mode: normal;
   }
 
   .container.menu-wrapper {
@@ -2200,8 +2523,12 @@ div.responsive-picture.picture-1:hover {
             flex-wrap: wrap;
   }
 
-  .container.container-4 {
-    margin-bottom: 10px;
+  .container.surrounding-padding-col {
+    background-color: #362a2b;
+  }
+
+  .container.container-1 {
+    background-color: #362a2b;
   }
 
   .link-container.sample-60-advanced-bt {
@@ -2226,7 +2553,7 @@ div.responsive-picture.picture-1:hover {
     margin-left: 0;
     padding: 1.5rem 1rem 1.2rem;
     min-width: 0vh;
-    max-width: 70px;
+    max-width: 65px;
     width: auto;
   }
 
@@ -2245,6 +2572,66 @@ div.responsive-picture.picture-1:hover {
        -moz-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
+  }
+
+  a.responsive-picture.picture-link-4 {
+    max-width: none;
+  }
+
+  a.responsive-picture.picture-link-5 {
+    max-width: none;
+  }
+
+  a.responsive-picture.picture-link-6 {
+    max-width: none;
+  }
+
+  a.responsive-picture.picture-link-7 {
+    max-width: none;
+  }
+
+  a.responsive-picture.picture-link-8 {
+    max-width: none;
+  }
+
+  a.responsive-picture.picture-link-9 {
+    max-width: none;
+  }
+
+  a.responsive-picture.picture-link-10 {
+    max-width: none;
+  }
+
+  a.responsive-picture.picture-link-11 {
+    max-width: none;
+  }
+
+  a.responsive-picture.picture-link-12 {
+    max-width: none;
+  }
+
+  a.responsive-picture.picture-link-13 {
+    max-width: none;
+  }
+
+  a.responsive-picture.picture-link-14 {
+    max-width: none;
+  }
+
+  a.responsive-picture.picture-link-15 {
+    max-width: none;
+  }
+
+  div.responsive-picture.picture-2 {
+    max-width: none;
+  }
+
+  div.responsive-picture.picture-3 {
+    max-width: none;
+  }
+
+  div.responsive-picture.picture-4 {
+    max-width: none;
   }
 }
 
@@ -2387,6 +2774,10 @@ div.responsive-picture.picture-1:hover {
     font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
   }
 
+  p.paragraph span.paragraph-text-6 {
+    font-size: 1.25rem;
+  }
+
   span.text-element.user-score {
     margin-right: 20px;
     font-size: 30px;
@@ -2437,16 +2828,6 @@ div.responsive-picture.picture-1:hover {
        -moz-transition-duration: .15s;
          -o-transition-duration: .15s;
             transition-duration: .15s;
-  }
-
-  a.link-text span.text-link-text-2 {
-    color: transparent;
-  }
-
-  a.link-text span.text-link-text-5 {
-    color: #e3d097;
-    font-size: 1rem;
-    font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
   }
 
   a.link-text span.text-link-text-15 {
@@ -2521,6 +2902,10 @@ div.responsive-picture.picture-1:hover {
 
   body.body-1 {
     background-color: #f2f2f2;
+  }
+
+  body.body-3 {
+    background-color: #362a2b;
   }
 
   .container.surrounding-padding-col {
@@ -2700,24 +3085,6 @@ div.responsive-picture.picture-1:hover {
     max-width: 600px;
   }
 
-  .container.full-width-col.sample-4 {
-    float: none;
-    min-width: 20px;
-    min-height: 1500px;
-    max-width: none;
-    max-height: none;
-    background-color: #fff;
-    background-image: url('../Annabelle%20in%20concert%2018x24%20poster_Sep%205%20copy.jpg');
-    background-attachment: scroll;
-    background-position: center bottom;
-    background-clip: border-box;
-    background-origin: padding-box;
-    background-size: contain;
-    background-repeat: no-repeat;
-
-    background-blend-mode: normal;
-  }
-
   .container.one-thousand-centered-cont.sample-22 {
     max-width: none;
   }
@@ -2877,10 +3244,21 @@ div.responsive-picture.picture-1:hover {
   a.responsive-picture.nav-item.picture-link-1 {
     display: block;
     visibility: visible;
-    padding-top: 1.5rem;
+    margin-top: 0;
+    padding-top: 1.51rem;
+    max-width: 200px;
+    background-image: none;
+    background-attachment: scroll;
+    background-position: left top;
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-size: 0 0;
+    background-repeat: no-repeat;
     -webkit-transform: scaleX(1) scaleY(1) scaleZ(1);
        -moz-transform: scaleX(1) scaleY(1) scaleZ(1);
             transform: scaleX(1) scaleY(1) scaleZ(1);
+
+    background-blend-mode: normal;
   }
 
   a.responsive-picture.picture-link-2 {
@@ -2931,6 +3309,10 @@ div.responsive-picture.picture-1:hover {
        object-fit: fill;
     -o-object-position: 50% 50%;
        object-position: 50% 50%;
+  }
+
+  div.responsive-video.video-platform-1 {
+    max-width: none;
   }
 
   div.responsive-picture.component-gallery-img:hover {
