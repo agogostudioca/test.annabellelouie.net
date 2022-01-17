@@ -363,6 +363,10 @@ a.link-text.text-link-4 {
   color: #e3d097;
 }
 
+a.link-text span.text-link-text-27 {
+  color: #e3d097;
+}
+
 a.link-text.footer-contact-info:hover {
   color: #ababab;
   -webkit-transition-duration: .15s;
@@ -1472,10 +1476,6 @@ div.responsive-picture.picture-1:hover {
     color: #e3d097;
   }
 
-  p.paragraph.paragraph-5 {
-    color: #f6e5b3;
-  }
-
   a.link-text.nav-item {
     color: #f6e5b3;
     font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
@@ -2237,7 +2237,7 @@ div.responsive-picture.picture-1:hover {
     padding: 1.5rem 1rem 1.2rem;
     min-width: 0vh;
     min-height: 0vh;
-    max-width: none;
+    max-width: 200px;
     width: auto;
 
     -webkit-box-flex: 1;
@@ -2268,7 +2268,7 @@ div.responsive-picture.picture-1:hover {
     padding: 1.5rem 1rem 1.2rem;
     min-width: 0vh;
     min-height: 0vh;
-    max-width: none;
+    max-width: 200px;
     width: auto;
 
     -webkit-box-flex: 1;
@@ -2483,6 +2483,11 @@ div.responsive-picture.picture-1:hover {
     font-size: 1.5rem;
   }
 
+  a.link-text span.text-link-text-26 {
+    color: #e3d097;
+    font-size: 1.5rem;
+  }
+
   a.link-text.nav-item:hover {
     color: #fff;
   }
@@ -2618,6 +2623,7 @@ div.responsive-picture.picture-1:hover {
   }
 
   a.responsive-picture.nav-item.picture-link-1 {
+    display: inline;
     overflow: visible;
     margin-right: 0;
     margin-left: 0;
@@ -2875,11 +2881,6 @@ div.responsive-picture.picture-1:hover {
 
   p.paragraph span.paragraph-text-6 {
     font-size: 1.25rem;
-  }
-
-  p.paragraph span.paragraph-text-14 {
-    color: #e3d097;
-    font-size: 1.5rem;
   }
 
   span.text-element.user-score {
