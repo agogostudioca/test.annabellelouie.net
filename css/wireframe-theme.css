@@ -49,7 +49,8 @@ body {
 [class*=callout] {
   min-width: 10px;
 }
-.link-container {
+.link-container,
+label.label-container {
   display: block;
 }
 li.list-item-link {
@@ -187,6 +188,10 @@ a.glyph-for-button i {
 a[class*='link-button'] .image-for-button {
   vertical-align: middle;
 }
+button[data-coffeebuilder-button][data-disabled] {
+  opacity: 0.25;
+  cursor: not-allowed;
+}
 /************************************************
  Video Element Styles
 ************************************************/
@@ -302,6 +307,53 @@ form.paypal-button button {
 form.paypal-image input[type=image] {
   width: 100%;
   margin: 0;
+}
+/************************************************
+ Video Background Full Screen Styles
+************************************************/
+.bg-full-screen-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -100;
+  overflow: hidden;
+}
+video.full-screen-video {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -100;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  object-fit: cover;
+}
+/************************************************
+ Video Background Content Size Styles
+************************************************/
+.bg-content-size-container {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  min-height: 100px;
+  width: 100%;
+}
+video.content-size-video {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  object-fit: cover;
 }
 /************************************************
  Menu Arrows Styles
@@ -459,6 +511,28 @@ form.paypal-image input[type=image] {
   border-right-color: inherit;
   border-bottom-color: transparent;
   border-left-color: transparent;
+}
+/************************************************
+ Textarea
+************************************************/
+textarea {
+  resize: none;
+}
+/************************************************
+ Range
+************************************************/
+input[type="range"] {
+  display: block;
+  width: 100%;
+  margin: 0 0 1rem;
+  height: 2.4375rem;
+}
+/************************************************
+ Text Elements inside a label container
+************************************************/
+.label-container span.text-element {
+  display: inline-block;
+  font-size: 1em;
 }
 
 /* Layout Elements */

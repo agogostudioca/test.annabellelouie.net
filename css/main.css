@@ -20,11 +20,6 @@ h1 span.heading-text-13 {
   font-size: 1.25rem;
 }
 
-h1 span.heading-text-15 {
-  color: #a6986e;
-  font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
-}
-
 h2 {
   margin-bottom: 1.5rem;
   margin-left: 0;
@@ -181,14 +176,6 @@ p.paragraph.footer-copyright-text {
 
 p.paragraph.technical-info-data-info {
   margin-bottom: 0;
-}
-
-p.paragraph span.paragraph-text-7 {
-  color: #a6986e;
-}
-
-p.paragraph span.paragraph-text-6 {
-  color: #a6986e;
 }
 
 p.paragraph.paragraph-1 {
@@ -1404,6 +1391,11 @@ a.responsive-picture.nav-item.picture-link-1 {
   max-width: 200px;
 }
 
+div.responsive-picture.picture-5 {
+  max-width: 200px;
+  width: 319px;
+}
+
 button.button:hover {
   padding-bottom: .7em;
   border-color: rgba(60, 60, 60, .25);
@@ -1429,11 +1421,6 @@ div.responsive-picture.picture-1:hover {
 
   h1 span.heading-text-12 {
     color: #e3d097;
-  }
-
-  h1 span.heading-text-15 {
-    color: #a6986e;
-    font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
   }
 
   h2 span.heading-text-1 {
@@ -1466,10 +1453,6 @@ div.responsive-picture.picture-1:hover {
 
   p.paragraph.paragraph-3 {
     color: #e3d097;
-  }
-
-  p.paragraph span.paragraph-text-6 {
-    color: #a6986e;
   }
 
   p.paragraph span.paragraph-text-8 {
@@ -1681,6 +1664,11 @@ div.responsive-picture.picture-1:hover {
   div.responsive-picture.picture-4 {
     max-width: none;
   }
+
+  div.responsive-picture.picture-5 {
+    max-width: none;
+    width: 639px;
+  }
 }
 
 @media screen and (min-width: 40rem) {
@@ -1690,11 +1678,6 @@ div.responsive-picture.picture-1:hover {
     font-weight: 500;
     font-size: 1.875rem;
     font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;
-  }
-
-  h1 span.heading-text-15 {
-    color: #a6986e;
-    font-size: 1.875rem;
   }
 
   h1 span.heading-text-17 {
@@ -1770,10 +1753,6 @@ div.responsive-picture.picture-1:hover {
 
   p.paragraph span.paragraph-text-5 {
     color: #e3d097;
-  }
-
-  p.paragraph span.paragraph-text-6 {
-    color: #a6986e;
   }
 
   p.paragraph span.paragraph-text-10 {
@@ -2352,16 +2331,8 @@ div.responsive-picture.picture-1:hover {
     font-size: 3rem;
   }
 
-  h1 span.heading-text-15 {
-    font-size: 3rem;
-  }
-
   h1 span.heading-text-17 {
     font-size: 3rem;
-  }
-
-  h1 span.heading-text-20 {
-    font-size: 2.75rem;
   }
 
   h1.heading-2 {
@@ -2378,6 +2349,10 @@ div.responsive-picture.picture-1:hover {
 
   h1 span.heading-text-21 {
     color: #f6e5b3;
+  }
+
+  h1 font.heading-text-24 {
+    font-size: 2.6875rem;
   }
 
   h2 span.heading-text-14 {
@@ -2734,6 +2709,15 @@ div.responsive-picture.picture-1:hover {
   a.responsive-picture.picture-link-17 {
     width: 80%;
   }
+
+  div.responsive-picture.picture-5 {
+    max-width: none;
+    width: 1014px;
+  }
+
+  a.responsive-picture.picture-link-20 {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 64rem) {
@@ -2877,10 +2861,6 @@ div.responsive-picture.picture-1:hover {
     letter-spacing: .0625rem;
     font-weight: 500;
     font-family: 'Franklin Gothic Medium', 'Franklin Gothic', 'ITC Franklin Gothic', Arial, sans-serif;
-  }
-
-  p.paragraph span.paragraph-text-6 {
-    font-size: 1.25rem;
   }
 
   span.text-element.user-score {
